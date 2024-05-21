@@ -40,3 +40,4 @@ npm install react-router-dom
 
 1. You have 3 buttons: easy, moderate and hard. when a button is clicked, filter the trips according to difficulty by changing the url, for example http://www.localhost:8000/trips?difficulty=easy
 Hint: [useSearchParams](https://reactrouter.com/docs/en/v6/api#usesearchparams)
+# react-route
