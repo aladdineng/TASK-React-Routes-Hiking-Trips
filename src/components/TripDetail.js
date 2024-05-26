@@ -1,7 +1,6 @@
 import React from "react";
 import tripsData from "../tripsData";
 import { useParams } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 function TripDetail() {
   const { tripId } = useParams();
@@ -18,9 +17,8 @@ function TripDetail() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8">
-                <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">
-                  {selectedTrip.name}
-                </h2>
+                {selectedTrip.name}
+                <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0"></h2>
                 <div className="divider-custom">
                   <div className="divider-custom-line"></div>
                   <div className="divider-custom-icon">
